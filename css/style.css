@@ -1045,7 +1045,7 @@ textarea{
 .project__item{
     margin-right: 30px;
     margin-bottom: 30px;
-    flex-basis: calc((100% - 3 * 30px) / 3);
+    /* flex-basis: calc((100% - 3 * 30px) / 3); */
     width: calc((100% - 30px * 2) / 3);
     border: 1px solid #EEEEEE;
 }
@@ -1101,19 +1101,19 @@ textarea{
 }
 
 .project-name{
-    margin: 20px 24px;
+    padding: 24px 20px;
 }
 
 .project-name__tittle{
-    /* text-align: left; */
+    text-align: left;
+    text-align: justify;
     color: #212121;
     font-size: 18px;
-    line-height: 2;
+    line-height: 36px;
     letter-spacing: 0.06em;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    
 }
 
 .project-name__text{
