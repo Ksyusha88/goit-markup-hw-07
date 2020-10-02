@@ -11,6 +11,22 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;   
+
+
+    &-title{
+        margin-top:30px;
+        color: #212121;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    &-text{
+        color: #757575;
+        margin-bottom: 0px;
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 .features-list{
@@ -20,18 +36,19 @@
   list-style: none;
   /* margin: 0px;
   padding: 0px; */
-}   
+   
 
-.features-list:nth-child(4n) {
-    margin-right: 0px;}
+    &:nth-child(4n) {
+        margin-right: 0px;}
 
-.features-list::before{
-    display: block;
-    content: "";
-    /* outline: 1px solid red; */
-    /* width: 270px; */
-    height: 120px;
-    background: #F5F4FA;
+    &::before{
+        display: block;
+        content: "";
+        /* outline: 1px solid red; */
+        /* width: 270px; */
+        height: 120px;
+        background: #F5F4FA;
+    }
 }
 
 .icon-attention::before{
@@ -48,18 +65,4 @@
 
 .icon-modern::before{
     background-image: url(../image/космонавт.png)
-}
-.features-title{
-    margin-top:30px;
-    color: #212121;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-.features-text{
-    color: #757575;
-    margin-bottom: 0px;
-    font-size: 14px;
-    line-height: 24px;
 }

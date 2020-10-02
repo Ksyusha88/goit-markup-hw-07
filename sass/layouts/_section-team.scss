@@ -9,32 +9,33 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
-}
-.team-list{
-    padding: 0px;
-    margin: 0px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    text-align: center;
-    width: calc((100% - 30px * 3) / 4);
-    background: #FFFFFF;
-    font-family: Roboto;
+
+    &-list{
+        padding: 0px;
+        margin: 0px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        text-align: center;
+        width: calc((100% - 30px * 3) / 4);
+        background: #FFFFFF;
+        font-family: Roboto;
+        }
+
+    &-name{
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        }
+    &-prof{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: #757575;
+        font-size: 16px;
+        line-height: 19px;
+        }
 }
 
 .team-list:not(:last-child){
     margin-right: 30px;
-}
-
-.team-name{
-    margin-top: 30px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-}
-.team-prof{
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: #757575;
-    font-size: 16px;
-    line-height: 19px;
 }

@@ -8,13 +8,13 @@
     line-height: 1,2;
     letter-spacing: 0.03em;
     margin-right: 93px;
-}
 
-.logo-header{
+
+&-header{
     color: #2196F3;
 }
 
-.logo-footer{
+&-footer{
     display: block;
     text-decoration: none;
     font-family: Raleway, sans-serif;
@@ -25,8 +25,8 @@
     line-height: 31px;
     /* position: absolute; */
     margin: 0px;
+    }
 }
-
 .fotter-logo {
     color: #2196F3;
  }

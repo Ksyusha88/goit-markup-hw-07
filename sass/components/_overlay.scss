@@ -27,10 +27,11 @@
     opacity: 0;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     opacity: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.project__card:hover .text-overlay,
-.project__card:focus .text-overlay{
+
+.project__card:hover &,
+.project__card:focus &{
     transform: translatey(0);
     opacity: 1;
+}
 }

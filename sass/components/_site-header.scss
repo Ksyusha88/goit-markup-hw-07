@@ -11,9 +11,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
 
-.site-header__text{
+
+&__text{
     margin-top: 0px;
     margin-bottom: 30px;
     font-family: Roboto;
@@ -25,4 +25,5 @@
     font-weight: 900;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-} 
+    } 
+}
